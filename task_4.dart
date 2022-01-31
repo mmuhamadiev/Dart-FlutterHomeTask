@@ -8,9 +8,9 @@ void main() {
 
 }
 
-class mapReturning {
+class MapReturning {
 
-  mapReturningMethod(String words) {
+  void mapReturningMethod(String words) {
     final splitedWords = words.split(" ");
 
     var map = <String,int>{};
